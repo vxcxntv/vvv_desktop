@@ -23,4 +23,17 @@ public class ConnectionMVC{
 
         return connection;
     }
+
+    public static void testConnection() {
+        try (Connection connection = getConnection()) {
+            if (connection != null) {
+                System.out.println("Conexão com o banco de dados foi bem-sucedida!");
+            } else {
+                System.out.println("Conexão com o banco de dados falhou.");
+            }
+        } catch (SQLException e) {
+            System.err.println("Erro ao testar a conexão: " + e.getMessage());
+        }
+    }
+    
 }
