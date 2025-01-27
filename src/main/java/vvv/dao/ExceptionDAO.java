@@ -1,4 +1,4 @@
-package main.java.vvv.dao;
+package dao;
 
 public class ExceptionDAO extends Exception{
     

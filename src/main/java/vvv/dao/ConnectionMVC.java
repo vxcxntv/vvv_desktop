@@ -1,4 +1,4 @@
-package main.java.vvv.dao;
+package dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class ConnectionMVC{
 
-    public Connection getConnection(){
+    public static Connection getConnection(){
         Connection connection = null;
 
         try{
@@ -16,7 +16,7 @@ public class ConnectionMVC{
         }
 
         try{
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/vvv_projeto?useSSL=false", "root", "cefetmg092022");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/vvv_projeto?useSSL=false", "root", "root1234");
         } catch (SQLException e) {
             e.printStackTrace();
         }

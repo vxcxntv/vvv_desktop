@@ -1,4 +1,4 @@
-package main.java.vvv.model;
+package model;
 
 import java.time.LocalDate;
 

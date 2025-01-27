@@ -1,9 +1,9 @@
-package main.java.vvv.controller;
+package controller;
 
 import java.time.LocalDate;
 
-import main.java.vvv.dao.CompanhiaDAO;
-import main.java.vvv.model.Companhia;
+import dao.CompanhiaDAO;
+import model.Companhia;
 
 public class CompanhiaController {
 

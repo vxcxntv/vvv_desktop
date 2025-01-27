@@ -1,10 +1,10 @@
-package main.java.vvv.dao;
+package dao;
 
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import main.java.vvv.model.Companhia;
+import model.Companhia;
 
 public class CompanhiaDAO {
     
